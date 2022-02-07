@@ -1,0 +1,52 @@
+.banner {
+    background-image: url("../../public/images/banner/banner_2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: all 0.35s ease;
+}
+
+.arrow svg {
+    color: #fff;
+    font-size: 20px;
+}
+
+.arrow__left {
+    left: 20px;
+}
+
+.arrow__right {
+    right: 20px;
+}
+
+.arrow:hover {
+    background-color: var(--blue);
+}
+
+.banner__heading {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.sub__heading {
+    font-size: 24px;
+}
